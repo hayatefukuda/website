@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+    font-size: 42pt;
+    font-family: '07ラノベPOP';
+    margin-top: 100px;
+    /* background-color: hotpink; */
+}
+p.sub-title {
+    text-align: center;
+    font-family: '03スマートフォントUI';
+    font-size: 30pt;
+    /* background-color: indigo; */
+}
+img.aboutimg {
+    height: 250px;
+    width: 550px;
+    float: left;
+    margin-left: 130px;
+}
+div.about-title {
+    text-align: center;
+    font-family: '851マカポップ';
+    font-size: 48pt;
+    margin-top: 200px;
+    /* background-color: green; */
+}
+div.about {
+    text-align: right;
+    font-family: '03スマートフォントUI';
+    font-size: 14pt;
+    margin-top: 200px;
+    margin-right: 170px;
+    /* background-color: green; */
+}
+div.works-title {
+    text-align: center;
+    font-family: '851マカポップ';
+    font-size: 48pt;
+    margin-top: 300px;
+}
+div.works {
+    
+}
+div.contact-title {
+    text-align: center;
+    font-family: '851マカポップ';
+    font-size: 48pt;
+    margin-top: 200px;
+}
+div.contact {
+    text-align: center;
+    font-family: '03スマートフォントUI';
+}
+p.contact {
+    font-family: 'Segoe UI';
+}
+body {
+    background-color: #F1F1f1;
+}
