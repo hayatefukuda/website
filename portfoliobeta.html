@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>福田 颯 | HAYATE FUKUDA</title>
+    <link rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <style type="text/css">
+        html {
+            scroll-behavior: smooth;
+        }
+        nav {
+            position: fixed;
+            font-family: '03スマートフォントUI';
+            font-size: 16pt;
+            /* scroll-behavior: smooth; */
+        }
+        body {
+            background-color: #F1F1F1;
+            overflow-x: hidden;
+        }
+        h1 {
+            text-align: center;
+            font-family: 'Geotica 2012';
+            font-size: 42pt;
+            /* background-color: blue; */
+        }
+        h2 {
+            text-align: center;
+            font-family: 'AC Big Serif One';
+            font-size: 24pt;
+            /* background-color: chartreuse; */
+        }
+        p.title {
+            text-align: center;
+            font-size: 38pt;
+            font-family: '03スマートフォントUI';
+            margin-top: 200px;
+            margin-bottom: 150px;
+            /* background-color: crimson; */
+        }
+        div.about,div.works {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        div.aboutimg {
+            width: 450px;
+            /* background-color: purple; */
+            height: 300px;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        div.abouttext {
+            height: 300px;
+            width: 450px;
+            text-align: right;
+            font-size: 14pt;
+            font-family: '03スマートフォントUI';
+            /* background-color: red; */
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        div.worksimg1 {
+            text-align: center;
+            width: 500px;
+            height: 300px;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            /* background-color: greenyellow; */
+        }
+        div.worksimg2 {
+            text-align: center;
+            width: 500px;
+            height: 300px;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            /* background-color: hotpink; */
+        }
+        div.contacttext1 {
+            width: 85%;
+            font-family: '03スマートフォントUI';
+            margin: auto;
+            /* background-color: lightgreen; */
+        }
+        div.contacttext2 {
+            height: 110px;
+            width: 85%;
+            font-size: 30pt;
+            font-family: 'Segoe UI';
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            /* background-color: #797979; */
+        }
+        img {
+            width:auto;
+            max-width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        #top{
+            scroll-behavior: smooth;
+        }
+        #up {
+            position: fixed;
+            margin: auto;
+        }
+        #open {
+            top: 1rem;
+            right: 1rem;
+            position: fixed;
+            float: right;
+            cursor: pointer;
+        }
+        #close {
+            float: right;
+            cursor: pointer;
+        }
+        #menu {
+            /* background-color: #dbdbdc; */
+            color: #000;
+            position: absolute;
+            top: 0;
+            right: -180px;
+            padding: 8px;
+            width: 180px;
+            height: 100%;
+            z-index: 3;
+            box-sizing: border-box;
+            transition: .4s;
+        }
+
+        #cover {
+            background-color: #000;
+            opacity: .6;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+            z-index: 2;
+        }
+        #cover.menu-open {
+            display: block;
+        }
+        #menu.menu-open {
+            right: 0;   
+        }
+    </style>
+</head>
+<body id="top">
+    <div id="menu">
+        <i class="fa fa-times fa-3x" id="close"></i>
+        <ul>
+            <nav>
+                <p><a href="#a"><li>about</li></a></p>
+                <p><a href="#b"><li>works</li></a></p>
+                <p><a href="#c"><li>contact</li></a></p>
+            </nav>
+        </ul>
+    </div>
+    <div id="main">
+        <a href="#top"><i class="fa fa-arrow-circle-up fa-2x" id="up"></i></a>
+        <i class="fa fa-bars fa-2x" id="open"></i>
+        <h1>Hayate Fukuda</h1>
+        <h2>PORTFOLIO OF PROGRAMMER</h2>
+        <p class="title" id="a">about</p>
+        <div class="about">
+            <div class="aboutimg">
+                <img src="img/sb-blog-programming.jpg">
+            </div>
+            <div class="abouttext">    
+                <p>1996年6月19日生まれ、千葉県出身</p>
+                <p>俳優系専門学校卒業後、プログラマーの道へ</p>
+                <p>映画鑑賞や読書、バンド活動等、多彩な趣味を持つ</p>
+                <p><b>Performance</b></p>
+                <p>地区内駅伝大会2年連続出場</p>
+                <p>某大企業主催Vtuberプロジェクト経験有</p>
+            </div>
+        </div>
+        <p class="title" id="b">works</p>
+        <div class="works">
+            <div class="worksimg1">
+                <img src="img/web_img01.jpg">
+            </div>
+            <div class="worksimg2">
+                <img src="img/00_m.jpg">
+            </div>
+        </div>
+        <p class="title" id="c">contact</p>
+        <div class="contact">
+            <div class="contacttext1">
+                <p>お問い合わせはこちらのメールアドレスより受け付けております。</p>
+                <p>詳しい実績を知りたいなどのご要望につきましてもこちらから承っております。</p>
+                   頂きましたメールには、内容を確認次第お返事致します。
+            </div>
+            <div class="contacttext2">
+                <p>hayate.fukuda@force-corp.co.jp</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        'use strict'
+
+        const open = document.getElementById('open');
+        const close = document.getElementById('close');
+        const menu = document.getElementById('menu');
+        const cover = document.getElementById('cover');
+
+        open.addEventListener('click', () => {
+            menu.className = 'menu-open';
+            cover.className = 'menu-open';
+        });
+        close.addEventListener('click', () => {
+            menu.className = '';
+            cover.className = '';
+        });
+        </script>
+</body>
+</html>
